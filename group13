@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fund Raising Concert for Siteo Bebe</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #ff0000;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-right: 85px;
+    text-align: justify;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    margin: 20px auto;
+}
+
+.button:hover {
+    background-color: #ff3300;
+}
+
+nav {
+    background-color: #ff0000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color:   
+ #ff3300;
+}
+</style>
+</head>
+<body>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#ticket">Buy Tickets Now!</a>
+</nav>
+
+<h1>Fund Raising Concert for Siteo Bebe</h1>
+<video width="640" height="480" controls autoplay loop muted style="display: block; margin: 0 auto;">
+    <source src="vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<p>Join us for a night of music and fun to support the medical needs of the residents of Siteo Bebe.</p>
+<p>Date: October 25, 2024</p>
+<p>Time: 4:00 - 10:00 P.M</p>
+<p>Venue: Siteo Bebe Multipurpose Hall</p>
+<p>Ticket Prices:</p>
+<ul style="text-align: left; font-size: 20px; text-color: red;">
+    <li>VIP: ₱ 2, 000.00</li>
+    <li>General Admission: ₱ 1, 250.00</li>
+    <li>VIP Package of 5: ₱ 8, 500.00</li>
+    <li>General Admission Package of 10: ₱ 11, 500.00</li>
+</ul>
+<p>Proceeds from the concert will go towards providing medical assistance to the residents of Siteo Bebe.</p>
+<button>Buy Tickets Now</button>
+
+<h2 id="about">About Us</h2>
+
+<p>Hello, we are Group 13, a group of five dedicated students passionate about supporting the community of Sitio Bebeb. Together, we have come together to organize a fundraising event that will make a significant impact on the lives of those who call Sitio Bebe home.</p>
+
+<h2>Team Members Introductions:</h2>
+
+<ul style="text-align: left; font-size: 20px; text-color: red;">
+    <li>Christman Joy Angeles: I am The leader of this group. Witnessing the resilience and spirit of its people has motivated me to take action and help them achieve their dreams.</li>
+    <li>Sofia Dandamun: I am a member of this group. My passion for this cause comes from a belief in the strength of community and solidarity. Seeing the struggles of the people of Sitio Bebe drives me to support and help create positive change.</li>
+    <li>Khaleed Leith Tumog: As a member of our group, I'm passionate about this because developing an excellent community leads to an excellent society. A healthy society ensures that our nation grows into the next generation with a promising future.</li>
+    <li>Yousef: As a member our group, I am very passionate to support the cause for the people of Sitio Bebe. It motivates to me to find a way through the struggle and see a positive future within people.</li>
+</ul>
+
+<h2>Background</h2>
+
+Sitio Bebe is currently facing challenges. The town is experiencing a serious health crisis due to a shortage of water and medical professionals. This is why we have come together to organize a fundraising event that will make a significant impact on the lives of those who call Sitio Bebeb home.
+
+<h2>Purpose of the Event</h2>
+
+Our goal is to raise funds that will be used to investing in research for solutions, supplying medical supplies and medication to the town's medical center, supporting training and scholarships for healthcare professionals, and improving access to clean water through sustainable initiatives. By achieving this, we aim to create a more sustainable and prosperous future for Sitio Bebe.
+
+<h2>Join Us</h2>
+
+We invite you to join us in supporting this noble cause. Whether you can donate your time, resources, or simply spread the word, every contribution counts. Together, we can create a brighter future for Sitio Bebe.
+
+Thank you for your support!
+
+<h2 id="ticket">Ticket Purchase Form</h2>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email"   
+ id="email" name="email" required><br><br>
+
+    <label for="tickets">Number   
+ of Tickets:</label>
+    <input type="number" id="tickets" name="tickets" min="1" required><br><br>   
+
+
+    <label for="ticket_type">Ticket Type:</label>
+    <select id="ticket_type" name="ticket_type">
+        <option value="general_admission">General Admission</option>
+        <option value="vip">VIP</option>
+        <option   
+ value="general_admission_package">General Admission Package</option>
+        <option value="vip_package">VIP Package</option>
+    </select><br><br>
+
+    <label for="payment_method">Payment Method:</label>
+    <select id="payment_method" name="payment_method">
+        <option value="credit_card">Credit   
+ Card</option>
+        <option value="Gcash">Gcash</option>   
+
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
